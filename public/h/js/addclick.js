@@ -1,0 +1,1 @@
+﻿var aid = document.getElementById("baike_js_click").getAttribute("tag"); try { if (window.ActiveXObject) { var xmlHttp = new ActiveXObject("Microsoft.XMLHTTP"); } else if (window.XMLHttpRequest) { var xmlHttp = new XMLHttpRequest(); } xmlHttp.open("get", "/addclick.ashx?aid=" + aid, true); xmlHttp.onreadystatechange = function() { }; xmlHttp.send(null); } catch (e) { }

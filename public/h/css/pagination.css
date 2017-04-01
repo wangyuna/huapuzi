@@ -1,0 +1,40 @@
+.box-border .guidance-list li a b.w300 {
+  font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+  display: inline-block;
+  width: 300px;
+}
+.f_2{text-indent:2em;}
+.article.table{ font-size:12px; line-height:24px;}
+.contact_bg{ margin:60px 0 30px 120px; text-align:left; background:url(../../pimg/about_bg_06.jpg) no-repeat; height:1100px; padding-left:30px; padding-top:20px;}
+.ft_16{ font-size:16px;}
+.box-border .article .center-list1 { margin:0;padding: 0;list-style: none;border-top: 1px solid #d9d9d9;}
+.box-border .article .center-list1 li {font-size: 12px;line-height:38px;text-align: center;border-bottom: 1px solid #d9d9d9;}
+.box-border .article .center-list1 li a {text-decoration: none;color:#737373;}
+.box-border .article .center-list1 li a:hover {color: #ff6a00;}
+.box-border .article .center-list1 li span{ color:#999; margin-left:10px;}
+.box-border .article .center-list1 li span.date{ color:#999; margin-right:10px;}
+.newstitle {text-align:center;font-weight:bold;line-height:44px;color:#333333;font-size:14px;border-bottom:1px dashed #999999; width:94%; margin:0 auto;}
+.date {text-align:center;line-height:38px; font-size:12px;}
+.next_prev1{ width:94%; margin:0 auto; font-size:12px;}
+<!--百科-->
+ul, li {list-style-type: none;}
+.breadcrumbs1 { width: 1200px;margin: 0px auto;padding-bottom: 10px;}
+
+<!--全部商品导购-->
+.fl_list{ width:100%; float:left;}
+.fl_list ul{padding:0;}
+.fl_list ul li{ width:160px; height:60px; border:1px solid #e0e0e0; background:#f2f2f2; font-size:14px;font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif; color:#FF6A00; line-height:60px; text-align:center; float:left; margin-right:40px;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+.fl_list ul li:hover{ width:160px; height:60px; border:1px solid #FF6A00; background:#FE7A24; font-size:14px;font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif; color:#fff; line-height:60px; text-align:center; float:left; margin-right:40px;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+.fl_list ul li.on{ width:160px; height:60px; border:1px solid #e0e0e0; background:#f2f2f2; font-size:14px;font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif; color:#FF6A00; line-height:60px; text-align:center; float:left; margin-right:0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+.fl_list ul li.on:hover{ width:160px; height:60px; border:1px solid #FF6A00; background:#FE7A24; font-size:14px;font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif; color:#fff; line-height:60px; text-align:center; float:left; margin-right:0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+.xfl_list{ margin:30px 0 15px 0; }
+.pad5 {width:28px;text-align:center;color:#7e7e80;display:inline-block;}
+.help h3 i {display: inline-block;width: 8px;height: 8px;margin-right: 8px;border: 2px solid transparent;border-radius: 50%;}
+.help h3 i.c-red {border-color: #a40000; background-color: #a40000;}
+.help h3 i.c-pink {border-color: #feabae;background-color: #feabae;}
+.help h3 i.c-champagne {border-color: #fcc280;background-color: #fcc280;}
+.help h3 i.c-yellow {border-color: #f1c323; background-color: #f1c323;}
+.help h3 i.c-white {border-color: #cecece;background-color: #fff;}
+.help h3 i.c-purple {border-color: #d37bfc; background-color: #d37bfc;}
+.help h3 i.c-blue {border-color: #5b37f7;background-color: #5b37f7;}
+

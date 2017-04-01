@@ -1,0 +1,10 @@
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('h w=["@19.9","@18.9","@17.9","@16.15","@12.9","@N.9","@W.9","@V.9","@U.9","@T.9"];$(n(){$("g[k=\'E\']").S("R",n(){6($(2).4().3("f").p(0)!=v){$(2).u($(2).4().3("7[l=\'8\']").x());$(2).4().3("f").o()}});$("g[k=\'E\']").Q(n(a){6(a.q==13){6($(2).4().3("f").p(0)!=v){$(2).u($(2).4().3("7[l=\'8\']").x());$(2).4().3("f").o();6($("g[k=\'r\']").p(0)!=v){$("g[k=\'r\']").L()}}j{6($("g[k=\'r\']").p(0)!=v){$("g[k=\'r\']").L()}}}j 6(a.q==G||a.q==O){h b=$(2).4().3("7");h c;J(h i=1;i<b.t;i++){6($(b[i]).H("8")==10){c=i;P}};6(a.q==G){6(c==1){c=b.t-1}j{c=c-1}}j{6(c==b.t-1){c=1}j{c=c+1}};$(2).4().3("7").C("8");$($(2).4().3("7")[c]).z("8")}j{h d,m;h e,5;5=$(2).u();5=5.y(/^\\s*|\\s*$/X,"");5=5.y("<","&Y;");5=5.y(">","&Z;");$(2).4().3("f").o();6(5!=""){d="";6(5.I("@")>-1){e=5.11("@")[0]}j{e=5};J(h i=0;i<w.t;i++){m=e+w[i];6(m.I(5)>-1&&m!=5){d+="<7>"+m+"</7>"}};d="<7 l=\'F\'>请选择邮箱类型</7><7 l=\'8\'>"+5+"</7>"+d;d="<f 14=\'D:"+B("("+$(2).A("M")+")").D+"K;1a:"+B("("+$(2).A("M")+")").1b+"K;\'>"+d+"</f>";$(2).4().1c(d);$(2).4().3("f").1d(n(){$(2).4().3("g").u($(2).3("7[l=\'8\']").x());$(2).o()});$(2).4().3("7").1e(n(){6($(2).H("F")==1f){$(2).4().3("7").C("8");$(2).z("8")}})}}})});',62,78,'||this|find|parent|mailValue|if|li|curr|com||||||ul|input|var||else|nodetype|class|itemHtml|function|remove|get|keyCode|next||length|val|undefined|MailFix|text|replace|addClass|attr|eval|removeClass|width|email|note|38|hasClass|indexOf|for|px|focus|config|hotmail|40|break|keyup|blur|bind|139|21cn|sohu|gmail|gi|lt|gt|true|split|sina||style|cn|189|126|163|qq|top|height|append|click|mouseover|false'.split('|'),0,{}))
+
+
+$(function(){
+	$("#Email").keydown(function(e){
+		if(e.keyCode == 32){
+			return false;
+		}	
+	});
+});

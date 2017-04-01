@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://www.hua.com/Member/MemberCenter/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>会员中心-中国鲜花礼品网</title>
+    <meta name="description" content="会员中心-中国鲜花礼品网,专业提供鲜花礼品网上购物,全国连锁网上花店,鲜花蛋糕礼品3小时送达1000多城市鲜花网,选中国鲜花礼品网(花礼网)-中国鲜花网领先品牌,Hua.com专注鲜花速递服务10年,销量稳居鲜花礼品类网站首位！鲜花网提供24小时订鲜花，同城送花、异地送花服务,网上订花后最快3小时即可将鲜花快递上门,送花网站覆盖中国900多城市！">
+    <meta name="keywords" content="会员中心，鲜花速递">
+    <meta name="author">
+        <script charset="utf-8" src="/h/index_MemberCenter_files/v.js"></script><script src="/h/index_MemberCenter_files/hm.js"></script><script type="text/javascript" src="/h/index_MemberCenter_files/CheckAgent"></script>
+    
+    
+
+    <link rel="icon" href="http://www.hua.com/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+    
+    <link type="text/css" rel="stylesheet" href="/h/index_MemberCenter_files/common.css">
+    <link type="text/css" rel="stylesheet" href="/h/index_MemberCenter_files/public.css">
+    
+    
+    <style>
+        li.active a {
+            color: #ff6a00 !important;
+            background-color: transparent;
+        }
+    </style>
+
+
+
+    <!--[if lt IE 9]>
+        <script src="http://img02.hua.com/pc/assets/js/html5shiv.min.js"></script>
+    <![endif]-->
+<link rel="stylesheet" href="/h/index_MemberCenter_files/layer.css" id="layuicss-skinlayercss"></head>
+<body class="home">
+    <!-- 顶部导航 -->
+    
+    <div class="site-nav">
+        <div class="container">
+
+            <ul class="site-nav-l">
+                <li class="menu">
+                    <a href="http://www.hua.com/" onclick="addfavorite();return false;"><span class="ico ico-star"></span>收藏鲜花网(hua.com)</a>
+                </li>
+                <li class="menu dropdown">
+                    <a href="javascript:void(0)" data-hover="dropdown" data-delay="0"><span class="ico ico-weixin"></span>关注微信</a>
+                    <div class="dropdown-menu dropdown-weixin">
+                        <img src="/h/index_MemberCenter_files/wechat_qrcode.jpg" height="124" width="124">
+                        <p>扫码关注<br>回复"礼物" 更多惊喜！</p>
+                    </div>
+                </li>
+                <li class="menu dropdown">
+                    <a href="http://www.hua.com/mobile/" data-hover="dropdown" data-delay="0" target="_blank"><span class="ico ico-mobile"></span>手机花礼</a>
+                    <div class="dropdown-menu dropdown-weixin">
+                        <img src="/h/index_MemberCenter_files/app_qrcode.jpg" height="124" width="124">
+                        <p>新人专享100元大礼包</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="site-nav-r">
+                <!--登陆状态信息显示start-->
+                <li class="menu login" id="LoginInfo"><a href="/h/index_MemberCenter_files/index_MemberCenter.html" rel="nofollow">你好，2752889273</a><a href="http://www.hua.com/Passport/Login/Loginout" title="退出">退出</a></li>
+                <!--登陆状态信息显示end-->
+                <li class="site-nav-pipe">|</li>
+                <li class="menu">
+                    <a href="http://www.hua.com/help/ordercx/" rel="nofollow" target="_blank">订单查询</a>
+                </li>
+                <li class="site-nav-pipe">|</li>
+                <!--我的花礼信息显示start-->
+                <li class="menu dropdown">
+                    <a href="http://www.hua.com/member/" rel="nofollow" data-hover="dropdown" data-delay="0" target="_blank">我的花礼</a>
+                </li><!--我的花礼信息显示end-->
+                <li class="site-nav-pipe">|</li>
+                <li class="menu dropdown">
+                    <a href="http://www.hua.com/help/" data-hover="dropdown" data-delay="0" target="_blank" aria-expanded="false">客户服务<span class="glyphicon glyphicon-triangle-bottom"></span></a>
+                    <div class="dropdown-menu dropdown-service">
+                        <a href="http://www.hua.com/member/payment/balancefill" target="_blank">在线付款</a>
+                        <a href="http://www.hua.com/help/" target="_blank">帮助中心</a>
+                        <a href="http://www.hua.com/help/afterservice.htm" target="_blank">售后服务</a>
+                        <a href="http://www.hua.com/help/sendRange.htm" target="_blank">配送范围</a>
+                        <a href="http://www.hua.com/chat/" target="_blank">留言反馈</a>
+                    </div>
+                </li>
+                <li class="site-nav-pipe">|</li>
+                <!--购物车信息显示start-->
+                <li class="menu dropdown">
+                    <a href="http://www.hua.com/shopping/showcart/" data-hover="dropdown" data-delay="0" rel="nofollow" target="_blank" aria-expanded="false"><span class="ico ico-cart"></span>购物车<span class="text-primary" id="gwcCount">(1)</span><span class="glyphicon glyphicon-triangle-bottom"></span></a>
+                    <div class="dropdown-menu dropdown-cart" id="CartInfo"><div class="cargo"><div class="com-list"><div class="img-box"><a href="http://www.hua.com/product/9012161.html" target="_blank"><img src="/h/index_MemberCenter_files/9012161.jpg_80x87.jpg" width="50" height="53"></a></div><div class="title"><a href="http://www.hua.com/product/9012161.html" target="_blank">爱的诺言—红玫瑰19枝，白色腊梅2枝</a></div><div class="num">1</div><div class="price"><span class="price-sign text-primary">¥ </span><span class="price-num text-primary strong"> 198</span></div></div><div class="settlement"><div class="total-price"><span><strong class="text-primary">1</strong> 件总计:</span><span class="price-sign text-primary strong">¥ </span><span class="price-num text-primary strong"> 198</span></div><a href="http://www.hua.com/shopping/showcart" class="btn btn-primary btn-sm" target="_blank">去购物车结算</a></div></div></div>
+                </li><!--购物车信息显示end-->
+                <li class="site-nav-pipe">|</li>
+                <li class="menu slogan">
+                    中国鲜花礼品网: 会员中心
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 顶部导航 End -->
+    <!-- 头部 -->
+    <header>
+        <div class="logo">
+            <h1><a href="http://www.hua.com/" class="logo-bd">会员中心</a></h1>
+            <i></i>
+            
+        <h2>中国鲜花礼品网 始于2005，简称花礼网</h2>
+    
+
+        </div>
+        <div class="search">
+            <form name="i_search" method="post" action="http://www.hua.com/search/">
+                <div class="input-group">
+                    <input name="keyword" type="text" class="form-control" placeholder="商品关键词">
+                    <span class="input-group-btn">
+                        <button class="btn btn-primary" type="button" onclick="this.form.submit()">搜索</button>
+                    </span>
+                </div>
+            </form>
+            
+    
+
+        </div>
+        <div class="service">
+            <span class="ico ico-phone"></span>400-889-8188
+            <a href="http://www.hua.com/chat/" target="_blank"><span class="ico ico-headset"></span>在线客服</a>
+        </div>
+    </header>
+    <!-- 头部 End -->
+    
+<!-- 导航 -->
+<nav class="common">
+    <div class="container">
+        <div class="categorys dropdown">
+            <h3 class="categorys-title" data-hover="dropdown" data-delay="0">
+                <a href="http://www.hua.com/all.html"><span class="pull-right glyphicon glyphicon-menu-down"></span>全部商品导购</a>
+            </h3>
+            <div class="dropdown-menu dropdown-cate">
+                <h4><a href="http://www.hua.com/flower/">鲜花</a></h4>
+                <ul class="cate-list list-inline">
+                    <li><a href="http://www.hua.com/aiqingxianhua/">爱情鲜花</a></li>
+                    <li><a href="http://www.hua.com/youqingxianhua/">友情鲜花</a></li>
+                    <li><a href="http://www.hua.com/shengriliwu/" target="_blank">生日鲜花</a></li>
+                    <li><a href="http://www.hua.com/songzhangbeixianhua/">问候长辈</a></li>
+                    <li><a href="http://www.hua.com/zhufuqinghexianhua/">祝贺鲜花</a></li>
+                    <li><a href="http://www.hua.com/hunqingxianhua/">婚庆鲜花</a></li>
+                    <li><a href="http://www.hua.com/tanbingweiwenxianhua/">探病慰问</a></li>
+                    <li><a href="http://www.hua.com/daoqianxianhua/">道歉鲜花</a></li>
+                    <li><a href="http://www.hua.com/businessFlower/kaiyehualan/">开业花篮</a></li>
+                </ul>
+                <h4><a href="http://www.hua.com/yongshenghua/">永生花</a></h4>
+                <ul class="cate-list list-inline">
+                    <li><a href="http://www.hua.com/yongshenghua/yongshenghua_box.html">经典花盒</a></li>
+                    <li><a href="http://www.hua.com/yongshenghua/yongshenghua_large.html">巨型玫瑰</a></li>
+                    <li><a href="http://www.hua.com/yongshenghua/yongshenghua_lavender.html">薰衣草</a></li>
+                </ul>
+
+                <h4><a href="http://www.hua.com/cake/">蛋糕</a></h4>
+                <ul class="cate-list list-inline">
+                    <li><a href="http://www.hua.com/cake/ganso/">元祖</a></li>
+                    <li><a href="http://www.hua.com/cake/holiland/">好利来</a></li>
+                    <li><a href="http://www.hua.com/cake/croissants/">可颂坊</a></li>
+                    <li><a href="http://www.hua.com/cake/waffleboy/">窝夫小子</a></li>
+                    <li><a href="http://www.hua.com/cake/micamika/">米卡米卡</a></li>
+                    <li><a href="http://www.hua.com/cake/yipinxuan/">一品轩</a></li>
+                    <li><a href="http://www.hua.com/cake/allcitycake/">全国品牌</a></li>
+                </ul>
+                <h4><a href="http://www.hua.com/gifts/">礼品</a></h4>
+                <ul class="cate-list list-inline">
+                    <li><a href="http://www.hua.com/livingflower/">泰国保鲜花</a></li>
+                    <li><a href="http://www.hua.com/gifts/goldenflower/">金箔花</a></li>
+                    <li><a href="http://www.hua.com/gifts/musicbox/">音乐盒</a></li>
+                    <li><a href="http://www.hua.com/gifts/crystallaser/">水晶内雕</a></li>
+                    <li><a href="http://www.hua.com/gifts/cosmeticmirror/">化妆镜</a></li>
+                    <li><a href="http://www.hua.com/gifts/kingking/">香薰系列</a></li>
+                    <li><a href="http://www.hua.com/toys/">品牌公仔</a></li>
+                    <li><a href="http://www.hua.com/gifts/bestlife/">音乐睡枕</a></li>
+                    <li><a href="http://www.hua.com/katonghuashu/">卡通花束</a></li>
+                </ul>
+                <h4><a href="http://www.hua.com/Plant/">绿植</a></h4>
+                <ul class="cate-list list-inline">
+                    <li><a href="http://www.hua.com/Plant/greenplant/">绿色植物</a></li>
+                    <li><a href="http://www.hua.com/Plant/potflower/">盆栽花卉</a></li>
+                </ul>
+            </div>
+        </div>
+        <ul class="nav">
+            <li><a href="http://www.hua.com/">首页</a></li>
+            <li><a href="http://www.hua.com/flower/">鲜花</a></li>
+            <li><a href="http://www.hua.com/yongshenghua/">永生花</a></li>
+            <li><a href="http://www.hua.com/cake/">蛋糕</a></li>
+            <li><a href="http://www.hua.com/gifts/">礼品</a></li>
+            <li><a href="http://www.hua.com/huayu/">花语大全</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- 导航 End -->
+<div class="container">
+    <div class="breadcrumbs"><a href="http://www.hua.com/">首页</a> &gt; <a href="/h/index_MemberCenter_files/index_MemberCenter.html">会员中心</a></div>
+    <div class="wrapper about">
+        
+
+
+<div class="pull-left w970 l230">
+    <div class="box-border member-r">
+        <div class="title">您好，欢迎进入会员中心</div>
+
+        <div class="member-info">
+            <div class="user">
+                <div class="avatar">
+                    <a href="http://www.hua.com/member/accountsetting/personinfomanage">
+                    </a>
+                </div>
+                <p>
+                    2752889273<br>
+                    <span class="ico ico-pthy"></span>
+普通会员                </p>
+            </div>
+            <div class="my-counts">
+                <a href="http://www.hua.com/member/order/?zt=1&sj=0">
+                    <b><span class="ico ico-m-pay"></span></b>待付款  <span class="">0</span>
+                </a>
+
+                <a href="http://www.hua.com/member/order/?zt=3&sj=0">
+                    <b><span class="ico ico-m-receive"></span></b>今日配送 <span class="">0</span>
+                </a>
+
+                <a href="http://www.hua.com/member/order/?zt=4&sj=0">
+                    <b><span class="ico ico-m-comment"></span></b>待评价 <span class="">0</span>
+                </a>
+            </div>
+            <ul class="my-stuffs list-unstyled">
+                <li><a href="http://www.hua.com/member/payment/myvirtualaccount">余额: 0</a></li>
+                <li><a href="http://www.hua.com/member/payment/myscores">积分: 0</a></li>
+                <li><a href="http://www.hua.com/member/payment/mycoupon">优惠券: 0</a></li>
+            </ul>
+
+            <div class="verify-mobile">
+            </div>
+        </div>
+
+            <div class="how-vip">
+                <h3>如何成为VIP</h3>
+                <p>您在hua.com成功购物一次，送货完毕后系统将自动将您的会员级别升至VIP，享受鲜花最高9折优惠。<br>会员级别将在送货完毕后一个工作日内完成升级，重大节日（即情人节、母亲节、七夕节、圣诞节和春节）需二个工作日左右。</p>
+            </div>
+
+        <div class="member-panel">
+            <div class="hd">
+                <a href="http://www.hua.com/Member/Order/MyAttention">查看更多关注 &gt;&gt; </a>
+                <h4>我的关注</h4>
+            </div>
+            <div class="bd">
+
+                    <p align="center"></p><center><font color="red"><b>您好,您没有关注的记录</b></font></center><p></p>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="pull-left w210 r970" id="containerBody">
+            <div class="box-border">
+                <div class="hd"><b></b>会员中心</div>
+                <ul class="bd">
+                    <li id="memberCenterItem" class="active"><a href="/h/index_MemberCenter_files/index_MemberCenter.html" style="font-size:12px;"><span class="ico ico-member1"></span>会员首页</a></li>
+                    <li>
+                        <span class="ico ico-member2"></span>订单信息
+                        <ul>
+                            <li id="myOrderItem"><a href="http://www.hua.com/Member/Order/">我的订单</a></li>
+                            <li id="cancelOrderItem"><a href="http://www.hua.com/Member/Order/?zt=-1">已取消订单</a></li>
+                            <li id="myEvaluationItem"><a href="http://www.hua.com/Member/Order/ReviewList">我的评价</a></li>
+                            <li id="myAttentionItem"><a href="http://www.hua.com/Member/Order/MyAttention">我的关注</a></li>
+                            <li id="myAttentionItem"><a href="http://www.hua.com/Member/Order/MyAttention">我的消息</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="ico ico-member3"></span>积分管理
+                        <ul>
+                            <li id="myScoresItem"><a href="http://www.hua.com/Member/Payment/MyScores">我的积分</a></li>
+                            <li id="scoresExchangeItem"><a href="http://www.hua.com/Member/Payment/ScoresExchange">积分兑换</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="ico ico-member4"></span>账户设置
+                        <ul>
+                            <li id="personInfoItem"><a href="http://www.hua.com/Member/AccountSetting/PersonInfoManage">个人信息</a></li>
+                            <li id="addressListItem"><a href="http://www.hua.com/Member/AccountSetting/AddressList">常用收货人</a></li>
+                            <li id="changePwdItem"><a href="http://www.hua.com/Member/AccountSetting/ChangePwd">修改密码</a></li>
+                            <li id="changeEmailItem"><a href="http://www.hua.com/Member/AccountSetting/ChangeEmail">修改登录名</a></li>
+                            <li id="remindItem"><a href="http://www.hua.com/Member/Remind/">生日/纪念日提醒</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="ico ico-member5"></span>付款设置
+                        <ul>
+                            <li id="myVirtualAccountItem"><a href="http://www.hua.com/Member/Payment/MyVirtualAccount">我的虚拟账户</a></li>
+                            <li id="myCouponItem"><a href="http://www.hua.com/Member/Payment/MyCoupon">我的优惠券</a></li>
+                            <li id="balanceFillItem"><a href="http://www.hua.com/Member/Payment/BalanceFill">在线补款</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="ico ico-member6"></span>客户服务
+                        <ul>
+                            <li id="guestMessageItem"><a href="http://www.hua.com/Member/CustomerService/GuestMessage">客服留言</a></li>
+                            <li id="tsGuestMessageItem"><a href="http://www.hua.com/Member/CustomerService/GuestMessage?type=ts">投诉留言</a></li>
+                            <li id="chatItem"><a href="http://www.hua.com/Chat/">在线客服</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!--底部-->
+    <!-- 尾部导航 -->
+    <div class="footer-nav">
+        <a href="http://www.hua.com/">首页</a> <b>|</b> <a href="http://www.hua.com/profile/about.htm" target="_blank">关于我们</a> <b>|</b> <a href="http://www.hua.com/profile/media.html" target="_blank">媒体报道</a> <b>|</b> <a href="http://www.hua.com/profile/contact.htm" target="_blank">联系方式</a> <b>|</b> <a href="http://www.hua.com/qiyetuangou/" target="_blank">企业团购</a> <b>|</b> <a href="http://www.hua.com/liansuo/" target="_blank">花店加盟</a> <b>|</b> <a href="http://www.hua.com/profile/links.htm" target="_blank">友情链接</a> <b>|</b> <a href="http://www.hua.com/member/payment/balancefill" target="_blank">在线补款</a> <b>|</b> <a class="last-child" href="http://www.hua.com/profile/why_choose_us.htm" target="_blank">为什么选择中国鲜花礼品网</a>
+    </div>
+    <!-- 尾部导航 End -->
+    <!-- 尾部帮助 -->
+    <div class="footer-help" style="display:none;">
+        <div class="container">
+            <div class="mod mod-a">
+                <h4>客户服务</h4>
+                <ul class="list-unstyled">
+                    <li><a href="http://www.hua.com/help/default.htm" target="_blank" rel="nofollow">服务声明</a></li>
+                    <li><a href="http://www.hua.com/help/payment.htm" target="_blank" rel="nofollow">支付说明</a></li>
+                    <li><a href="http://www.hua.com/help/payment_foreign.htm" target="_blank" rel="nofollow">境外支付</a></li>
+                    <li><a href="http://www.hua.com/help/send_shuoming.htm" target="_blank" rel="nofollow">配送说明</a></li>
+                    <li><a href="http://www.hua.com/help/sendRange.htm" target="_blank" rel="nofollow">配送范围</a></li>
+                    <li><a href="http://www.hua.com/help/ordercx/" target="_blank" rel="nofollow">订单查询</a></li>
+                    <li><a href="http://www.hua.com/help/order_cancel.htm" target="_blank" rel="nofollow">取消订单</a></li>
+                    <li><a href="http://www.hua.com/help/re_payment.htm" target="_blank" rel="nofollow">补交货款</a></li>
+                    <li><a href="http://www.hua.com/help/private.htm" target="_blank" rel="nofollow">隐私条款</a></li>
+                    <li><a href="http://www.hua.com/help/safe.htm" target="_blank" rel="nofollow">安全条款</a></li>
+                </ul>
+            </div>
+            <div class="mod mod-b">
+                <h4>热门咨询</h4>
+                <ul class="list-unstyled">
+                    <li><a href="http://www.hua.com/help/shop_step.htm" target="_blank" class="thiscolor_h">中国鲜花礼品网购物流程</a></li>
+                    <li><a href="http://www.hua.com/help/demo.htm" target="_blank">中国鲜花礼品网订购演示</a> </li>
+                    <li><a href="http://www.hua.com/help/sendRange.htm" target="_blank">鲜花网能配送哪些城市？</a></li>
+                    <li><a href="http://www.hua.com/help/afterservice.htm" target="_blank">鲜花售后服务是怎么样的？</a></li>
+                    <li><a href="http://www.hua.com/help/Orde_in_advance.htm" target="_blank">我应该提前多久预订鲜花？</a></li>
+                </ul>
+            </div>
+            <div class="mod mod-c">
+                <h4><a href="http://www.hua.com/huadian/" target="_blank">同城鲜花专区</a></h4>
+                <ul class="list-unstyled">
+                    <li><a href="http://sz.hua.com/" target="_blank" title="深圳鲜花">深圳鲜花</a></li>
+                    <li><a href="http://bj.hua.com/" target="_blank" title="北京鲜花">北京鲜花</a></li>
+                    <li><a href="http://sh.hua.com/" target="_blank" title="上海鲜花">上海鲜花</a></li>
+                    <li><a href="http://gz.hua.com/" target="_blank" title="广州鲜花">广州鲜花</a></li>
+                    <li><a href="http://tj.hua.com/" target="_blank" title="天津鲜花">天津鲜花</a></li>
+                    <li><a href="http://cq.hua.com/" target="_blank" title="重庆鲜花">重庆鲜花</a></li>
+                    <li><a href="http://cd.hua.com/" target="_blank" title="成都鲜花">成都鲜花</a></li>
+                    <li><a href="http://xa.hua.com/" target="_blank" title="西安鲜花">西安鲜花</a></li>
+                    <li><a href="http://wh.hua.com/" target="_blank" title="武汉鲜花">武汉鲜花</a></li>
+                    <li><a href="http://nj.hua.com/" target="_blank" title="南京鲜花">南京鲜花</a></li>
+                    <li><a href="http://xm.hua.com/" target="_blank" title="厦门鲜花">厦门鲜花</a></li>
+                    <li><a href="http://www.hua.com/help/sendRange.htm" target="_blank" title="更多城市">更多城市</a></li>
+                </ul>
+            </div>
+            <div class="mod mod-d">
+                <h4>联系我们</h4>
+                <p>
+                    全国订购热线:400-889-8188(免长途费)<br>
+                    <a href="http://www.hua.com/chat/" target="_blank">在线客服</a><br>
+                    7x24小时在线订购<br>
+                    客服工作时间：8:30-21:00<br>
+                    E-mail: <a href="mailto:kefu@hua.com">kefu@hua.com</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 尾部帮助 End -->
+    <!-- 通用尾部 -->
+    <footer>
+        <div class="auth">
+            <!-- <span style="margin-right:8px;">
+                <script src="http://kxlogo.knet.cn/seallogo.dll?sn=e15041744030058395oqbo000000&amp;size=4"></script>
+            </span> -->
+            <a href="https://ss.knet.cn/verifyseal.dll?sn=e15041744030058395oqbo000000&ct=df&a=1&pa=0.8817607406526804" target="_blank"><img style="height:40px;" src="/h/index_MemberCenter_files/cxwz.png"></a>
+            <a href="https://search.szfw.org/cert/l/CX20130306002238002312" target="_blank"><img src="/h/index_MemberCenter_files/cxwz.gif" height="40" width="112"></a>
+            <a href="http://www.anquan.org/authenticate/cert/?site=www.hua.com&at=realname" rel="nofollow" target="_blank"><img src="/h/index_MemberCenter_files/smyz.gif" height="40" width="106"></a>
+<img src="/h/index_MemberCenter_files/slogan.png" height="50" width="212">            <a href="http://www.hua.com/member/payment/fillbyalipay?order_no=&total_fee=" rel="nofollow" target="_blank"><img src="/h/index_MemberCenter_files/zfb.gif" height="49" width="96"></a>
+            <a href="http://www.hua.com/profile/news_20111110.htm" target="_blank"><img src="/h/index_MemberCenter_files/100.jpg" height="49" width="150"></a>
+            <a href="http://www.hua.com/profile/ICP.htm" rel="nofollow" target="_blank"><img src="/h/index_MemberCenter_files/bico1.jpg" alt="ICP" height="46" width="35"></a>
+            <!--             <a href="http://www.sznet110.gov.cn/webrecord/innernet/Welcome.jsp?bano=4403301920636" rel="nofollow" target="_blank"><img alt="网警" src="http://img02.hua.com/pc/assets/img/bico2.jpg" height="46" width="35"></a> -->
+            <a href="http://szcert.ebs.org.cn/fab6de6a-ff80-4e63-89e4-cd531170c256" rel="nofollow" target="_blank"><img alt="工商网监" src="/h/index_MemberCenter_files/bico4.jpg" height="46" width="35"></a>
+            <a href="http://www.sznet110.gov.cn/netalarm/index.jsp" rel="nofollow" target="_blank"><img src="/h/index_MemberCenter_files/bico3.jpg" alt="网安" height="46" width="35"></a>
+        </div>
+        <p><a href="http://www.hua.com/profile/ChinaFlowerAssociation.htm" rel="nofollow" target="_blank" title="中国花卉协会会员">中国花卉协会会员</a> <a href="http://www.hua.com/profile/chinaECA.htm" rel="nofollow" target="_blank">中国电子商务协会会员</a> ICP经营许可证：<a href="http://www.hua.com/profile/ICP.htm" rel="nofollow" target="_blank">粤B2-20050744</a> <b>|</b> <a href="http://www.miibeian.gov.cn/" rel="nofollow" target="_blank">粤ICP备09171662号</a> <span class="ico beian"></span>粤公网安备44030502000373号 Copyright © 2005-2017</p>
+        <p> 花礼网 （中国鲜花礼品网） <a href="http://www.hua.com/">www.hua.com</a> 会员中心</p>
+    </footer>
+    <!-- 通用尾部 End -->
+    <!-- 弹出窗口-->
+    
+    <!-- 弹出窗口end-->
+    <!-- 友情链接 -->
+    <div class="footer-link" style="display:none;">
+        <b>友链</b>
+        <div>
+            <a href="http://www.chinaname.cn/" target="_blank">中华取名网</a> <a href="http://sz.fang.com/" target="_blank">深圳房产网</a> <a href="http://www.juanpi.com/" target="_blank">卷皮网</a> <a href="http://www.wbiao.cn/" target="_blank">腕表</a>  <a href="http://www.bbhun.com/" target="_blank">宝贝婚团网</a> <a href="http://www.yuanlin365.com/" target="_blank">苗木</a> <a href="http://www.zocai.com/" target="_blank">佐卡伊珠宝网</a> <a href="http://www.bloves.com/" target="_blank">钻石婚戒定制</a> <a href="http://www.spider.com.cn/" target="_blank">杂志</a> <a href="http://www.iyijiao.com/" target="_blank">中国青少年艺术教育网</a> <a href="http://www.aiuw.com/" target="_blank">装修网</a> <a href="http://www.dog126.com/" target="_blank">淘狗网</a> <a href="http://www.liwuyou.com/" target="_blank">礼无忧网</a> <a href="http://www.goupuzi.com/" target="_blank">宠物狗</a> <a href="http://www.jiyouwang.com/" target="_blank">机友网</a> <a href="http://www.cocodiy.com/" target="_blank">礼物网</a> <a href="http://zx.meilele.com/" target="_blank">装修</a> <a href="http://www.ipo3.com/" target="_blank">新三板</a> <a href="http://www.huoming.com/" target="_blank">商标注册</a> <a href="http://www.loho88.com/" target="_blank">眼镜店</a>
+        </div>
+    </div>
+    <!-- 友情链接 End -->
+
+        <script type="text/javascript" src="/h/index_MemberCenter_files/common.js"></script>
+    
+    
+    <script>
+        var activeItem = 'memberCenterItem';
+        $("#containerBody").find('li').each(function () {
+            $(this).removeClass("active");
+            if ($(this).attr('id') == activeItem) {
+                $(this).addClass("active");
+            }
+        })
+    </script>
+
+        <script type="text/javascript" src="/h/index_MemberCenter_files/statesandright.js"></script>
+    <script src="/h/index_MemberCenter_files/layer.js"></script>
+    <script type="text/javascript">
+        function reqUrlParam(paras) {
+            var url = location.href;
+            var paraString = url.substring(url.indexOf("?") + 1, url.length).split("&");
+            var paraObj = {}
+            for (i = 0; j = paraString[i]; i++) {
+                paraObj[j.substring(0, j.indexOf("=")).toLowerCase()] = j.substring(j.indexOf("=") + 1, j.length);
+            }
+            var returnValue = paraObj[paras.toLowerCase()];
+            if (typeof (returnValue) == "undefined") {
+                return "";
+            } else {
+                return returnValue;
+            }
+        }
+        function setCurUrlClass() {
+            // css : class = "color_tj"
+            var pathname1 = window.location.pathname;
+            $("a[href='" + pathname1 + "'").addClass("color_tj");
+        }
+        if ($("#pjCount").length > 0) {
+            $.get("/productpj/GetPJCount", function (data) {
+                $("#pjCount").text(data);
+            });
+        }
+        $(function () {
+            var rmd = Math.random();
+            $.get("/Home/UserDjUpgrade?rmd=" + rmd, null, function (data) {
+                if (data == "1") {
+                    layer.open({
+                        title: '温馨提示'
+                     , content: '恭喜您已经升级为VIP会员！'
+                       , area: ['500px', '150px']
+
+                    });
+                }
+            }, "json");
+        });
+    </script>
+
+</body></html>
